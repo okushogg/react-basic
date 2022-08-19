@@ -2,12 +2,15 @@ import './App.css';
 // import TextInput from './components/TextInput';
 // import Article from "./components/Article";
 // import Counter from './components/Counter';
-import ToggleButton from './components/ToggleButton';
+import {Counter,ToggleButton} from './components';
 
 
 function App(){
   return (
-    <ToggleButton/>
+    <div>
+      <Counter />
+      {/* <ToggleButton /> */}
+    </div>
   );
 }
 // function App(){

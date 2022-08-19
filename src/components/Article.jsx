@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {Content, PublishButton, Title} from "./index";
+import {Title, Content, PublishButton} from "./index";
 
 const Article = (props) => {
   const[isPublished, setIsPublished] = useState(false)

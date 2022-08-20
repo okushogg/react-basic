@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-// import TextInput from './components/TextInput';
-// import Article from "./components/Article";
-// import Counter from './components/Counter';
-// import {Counter,ToggleButton} from './components';
+import {Counter,ToggleButton} from './components';
 
 
 function App(){
